@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>تواصل | سوق الحواسيب المستعملة</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">💻</span>
+        <span>
+          <div>سوق الحواسيب المستعملة</div>
+          <div class="small muted">التواصل والاستفسار</div>
+        </span>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">الرئيسية</a>
+        <a href="product.html">تفاصيل الجهاز</a>
+        <a href="contact.html">تواصل</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <div class="cta">
+        <div>
+          <span class="badge">جاهز لتعديل بياناتك</span>
+          <h2>التواصل والاستفسار</h2>
+          <p class="muted">هذه الصفحة جاهزة. أضف رقم هاتفك أو رابط واتساب داخل الأزرار أو النموذج عندما تريد نشر الموقع فعليًا.</p>
+          <ul>
+            <li>الجهاز: HP ZBook 15</li>
+            <li>السعر: 500 ألف دينار عراقي</li>
+            <li>المكان: البصرة - كرمة علي الطوزه</li>
+            <li>الحالة: جيدة</li>
+          </ul>
+        </div>
+        <div class="card card-body">
+          <div class="kv">
+            <div class="muted">اسم المتجر</div><div>سوق الحواسيب المستعملة</div>
+            <div class="muted">المنتج الحالي</div><div>HP ZBook 15</div>
+            <div class="muted">السعر</div><div>500 ألف دينار</div>
+            <div class="muted">الموقع</div><div>البصرة - كرمة علي الطوزه</div>
+          </div>
+          <div style="display:flex; gap:.8rem; flex-wrap:wrap; margin-top:1rem;">
+            <a class="btn" href="product.html">عودة لتفاصيل الجهاز</a>
+            <a class="btn secondary" href="index.html">الرجوع للرئيسية</a>
+          </div>
+        </div>
+      </div>
+
+      <div style="height:1.5rem"></div>
+
+      <section class="card card-body">
+        <h2>أرسل استفسارك</h2>
+        <p class="muted">النموذج يعمل كواجهة تجريبية محلية. عند النشر يمكنك ربطه بخدمة بريد أو واتساب.</p>
+        <form id="contactForm">
+          <div class="form-grid">
+            <input class="input" type="text" placeholder="الاسم الكامل" required>
+            <input class="input" type="tel" placeholder="رقم الهاتف">
+            <input class="input" type="email" placeholder="البريد الإلكتروني">
+            <input class="input" type="text" placeholder="اسم الجهاز المطلوب" value="HP ZBook 15">
+          </div>
+          <div style="height:1rem"></div>
+          <textarea class="input textarea" placeholder="اكتب رسالتك أو استفسارك هنا" required></textarea>
+          <div style="height:1rem"></div>
+          <button class="btn" type="submit">إرسال الطلب</button>
+          <div class="notice" id="formNotice"></div>
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container muted">
+      <div>© <span id="year"></span> سوق الحواسيب المستعملة</div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
